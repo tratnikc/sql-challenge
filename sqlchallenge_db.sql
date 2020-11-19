@@ -73,3 +73,11 @@ CREATE TABLE salaries (
         REFERENCES employees (emp_no)
 );
 
+/* import data in the following order
+departments
+titles
+employees
+dept_manager
+dept_emp
+salaries
+*/
