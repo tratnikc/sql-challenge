@@ -1,3 +1,11 @@
+-- drop TABLE if exists
+DROP TABLE IF EXISTS employees CASCADE;
+DROP TABLE IF EXISTS salaries CASCADE;
+DROP TABLE IF EXISTS dept_emp CASCADE;
+DROP TABLE IF EXISTS dept_manager CASCADE;
+DROP TABLE IF EXISTS titles CASCADE;
+DROP TABLE IF EXISTS departments CASCADE;
+
 -- create database sql-challenge
 CREATE DATABASE "sql-challenge"
     WITH 
