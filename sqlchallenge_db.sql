@@ -6,16 +6,6 @@ DROP TABLE IF EXISTS dept_manager CASCADE;
 DROP TABLE IF EXISTS titles CASCADE;
 DROP TABLE IF EXISTS departments CASCADE;
 
--- create database sql-challenge
-CREATE DATABASE "sql-challenge"
-    WITH 
-    OWNER = postgres
-    ENCODING = 'UTF8'
-    LC_COLLATE = 'C'
-    LC_CTYPE = 'C'
-    TABLESPACE = pg_default
-    CONNECTION LIMIT = -1;
-
 -- create table departments
 CREATE TABLE departments (
     dept_no varchar(20) not null,
