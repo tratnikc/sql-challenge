@@ -1,2 +1,1 @@
-passwd = postgres
-database = sql-challenge
+passwd = 'postgres'
