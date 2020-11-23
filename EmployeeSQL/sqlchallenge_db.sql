@@ -1,13 +1,16 @@
+/*
+-- database: sql-challenge
 -- drop database
-DROP DATABASE IF EXISTS "sql-challenge";
+ DROP DATABASE IF EXISTS "sql-challenge";
 
 -- create database
 CREATE DATABASE "sql-challenge"
     WITH
     OWNER = postgres
     ENCODING = 'UTF8'
+    TABLESPACE = pg_default
     CONNECTION LIMIT = -1;
-
+*/
 -- drop TABLE if exists
 DROP TABLE IF EXISTS employees CASCADE;
 DROP TABLE IF EXISTS salaries CASCADE;
