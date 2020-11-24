@@ -25,5 +25,5 @@
 
 
 ### Analysis
-[Data provided is bogus.](https://github.com/tratnikc/sql-challenge/blob/main/EmployeeSQL/output/emp499942.png)
+[Data provided is fake.](https://github.com/tratnikc/sql-challenge/blob/main/EmployeeSQL/output/query8.png). All employees share the same last name except for employee 499942
 ![employee 499942](https://github.com/tratnikc/sql-challenge/blob/main/EmployeeSQL/output/emp499942.png)
