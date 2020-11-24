@@ -10,7 +10,7 @@
 5. [data files in data folder](https://github.com/tratnikc/sql-challenge/tree/main/EmployeeSQL/data)  
 6. [employeeSQL.sql](https://github.com/tratnikc/sql-challenge/blob/main/EmployeeSQL/employeeSQL.sql) - data analysis queries  
 7. [data analysis output](https://github.com/tratnikc/sql-challenge/tree/main/EmployeeSQL/output) screenshots
-8. [analysis.ipynb](https://github.com/tratnikc/sql-challenge/blob/main/EmployeeSQL/analysis.ipynb) - bonus analysis (use sqlalcehmy to connect to postgresql)
+8. [analysis.ipynb](https://github.com/tratnikc/sql-challenge/blob/main/EmployeeSQL/analysis.ipynb) - bonus analysis (use SQLAlchemy to connect to postgresql)
 9. this README.md  
 10. config.py in .gitignore contains connection string  
 
@@ -25,5 +25,5 @@
 
 
 ### Analysis
-[Data provided is bogus.](
-
+[Data provided is bogus.](https://github.com/tratnikc/sql-challenge/blob/main/EmployeeSQL/output/emp499942.png)
+![employee 499942](https://github.com/tratnikc/sql-challenge/blob/main/EmployeeSQL/output/emp499942.png)
