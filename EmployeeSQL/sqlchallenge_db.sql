@@ -77,7 +77,7 @@ CREATE TABLE dept_emp (
 -- create table salaries
 CREATE TABLE salaries (
     emp_no int not null,
-    salaries numeric(10,2) not null,
+    salary numeric(10,2) not null,
     PRIMARY KEY (emp_no),
     CONSTRAINT fk_emp_salaries
         FOREIGN KEY (emp_no)

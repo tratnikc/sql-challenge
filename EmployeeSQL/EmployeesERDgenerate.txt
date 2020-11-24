@@ -21,7 +21,7 @@ hire_date date
 SALARIES
 --
 emp_no PK int fk - employees.emp_no
-salaries numeric(10,2)
+salary numeric(10,2)
 
 DEPT_EMP
 --

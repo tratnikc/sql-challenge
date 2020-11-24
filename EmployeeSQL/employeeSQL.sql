@@ -3,7 +3,7 @@ select a.emp_no as "Employee Number"
       , a.last_name as "Last Name"
 	  , a.first_name as "First Name"
 	  , a.sex as "Sex"
-	  , b.salaries as "Salary"
+	  , b.salary as "Salary"
 from employees a
 join salaries b 
     on b.emp_no = a.emp_no;
